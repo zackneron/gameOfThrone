@@ -1,0 +1,46 @@
+footer {
+	color: $white;
+	font-size: 13px;
+}
+.footer-menu {
+
+	li:not(last-child) {
+		margin-right: 20px !important;
+	}
+	a {
+		text-transform: uppercase;
+		color: $white;
+		transition: color .2s linear;
+		font-size: 14px;
+		font-family: $roboto-regular;
+
+		&:hover {
+			text-decoration: none;
+			color: $blue;
+		}
+	}
+}
+
+.btn{ 
+	&--footer {
+		font-family: $roboto-regular;
+		border: 3px solid $blue;
+		border-radius: 0;
+		text-transform: uppercase;
+		color: $white !important;
+
+		&:hover {
+			background-color: $blue;
+			border-color: $blue;
+		}
+	}
+}
+
+.site {
+	&__title {
+		font-family: $roboto-light;
+	}
+	&__name {
+		font-family: $gotham-black;
+	}
+}

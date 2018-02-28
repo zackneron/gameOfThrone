@@ -1,0 +1,86 @@
+.content-section {
+	background-color: $grey;
+}
+
+.card{
+	&--items {
+		padding: 20px;
+		-webkit-box-shadow: 0 0 5px 0 #d6d4d4;
+		box-shadow: 0 0 5px 0 #d6d4d4;
+
+		@media(min-width: 576px){
+			height: 380px;
+		}
+	}
+}
+
+.ticker {
+	color: $white;
+	position: absolute;
+    z-index: 1;
+    padding: 0 10px;
+    top: 35px;
+    left: 15px;
+    font-size: 14px;
+    font-family: $roboto-medium;
+
+    &--brown {
+		background-color: $brown;
+	}
+	&--green {
+		background-color: $green;
+	}
+}
+
+.reveal{
+	position: absolute;
+	margin-right: 15px;
+	padding: 65px 15px 25px;
+	transition: all .4s linear;
+	border-radius: .25rem;
+	text-align: center;
+	display: none;
+
+	@media(min-width: 576px) and (max-width: 991px){
+		padding-top: 40px;
+	}
+
+	> h5 {
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+
+	> p {
+		font-size: 12px;
+		margin-bottom: 25px;
+	}
+
+	&__btn {
+		border-radius: 0;
+		color: $white !important;
+		font-family: $roboto-regular;
+		border-color: $blue !important;
+
+		&:hover {
+			background-color: $blue !important;
+			border-color: $blue !important;
+		}
+	}
+}
+
+.onHover{
+	cursor: pointer;
+	
+	@media(min-width: 576px){
+		height: 380px;
+	}
+
+	&:hover > .reveal {
+		top: 0;
+		bottom: 0;
+		background-color: $dark-blue;
+		color: $white;
+		z-index: 2;
+		display: block;
+	}
+}

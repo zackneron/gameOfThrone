@@ -1,0 +1,191 @@
+@font-face {
+  font-family: "Gotham Black";
+  src: url("../fonts/gotham/Gotham-Black.oft"); }
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("../fonts/roboto/Roboto-Regular.ttf"); }
+
+@font-face {
+  font-family: "Roboto Medium";
+  src: url("../fonts/roboto/Roboto-Medium.ttf"); }
+
+@font-face {
+  font-family: "Roboto Light";
+  src: url("../fonts/roboto/Roboto-Light.ttf"); }
+
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("../fonts/roboto/Roboto-Bold.ttf"); }
+
+@font-face {
+  font-family: "PT Serif";
+  src: url("../fonts/ptserif/PTF55F.ttf"); }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.card-title--item {
+  font-family: "Roboto Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #a94219; }
+
+.card-body--item {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center; }
+
+.flex {
+  display: flex; }
+  .flex-align-center {
+    align-self: center; }
+
+.navbar-toggler:focus {
+  outline: none; }
+
+.jumbotron--container {
+  background: url(../img/jumbotron-bg.png) no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 500px; }
+
+.jumbotron__title {
+  position: relative;
+  bottom: -180px;
+  color: #fff;
+  font-family: "PT Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 50px; }
+  @media (min-width: 768px) {
+    .jumbotron__title {
+      font-size: 82px; } }
+
+.container--wrap {
+  position: relative; }
+
+.collapse--container {
+  background: #000;
+  position: absolute;
+  width: 95%;
+  z-index: 1; }
+  @media (min-width: 768px) {
+    .collapse--container {
+      background: rgba(0, 0, 0, 0.5);
+      width: 100%; } }
+
+.list-unstyled--mobile > li {
+  display: block; }
+  @media (min-width: 768px) {
+    .list-unstyled--mobile > li {
+      display: inline-block; } }
+
+.list-unstyled li:not(last-child) {
+  margin-bottom: 20px; }
+  @media (min-width: 768px) {
+    .list-unstyled li:not(last-child) {
+      margin-right: 40px !important;
+      margin-bottom: 0; } }
+
+.list-unstyled a {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Roboto Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  transition: color .2s linear; }
+  .list-unstyled a:hover {
+    text-decoration: none;
+    color: #50afc7; }
+
+.content-section {
+  background-color: #fafbfc; }
+
+.card--items {
+  padding: 20px;
+  box-shadow: 0 0 5px 0 #d6d4d4; }
+  @media (min-width: 576px) {
+    .card--items {
+      height: 380px; } }
+
+.ticker {
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  padding: 0 10px;
+  top: 35px;
+  left: 15px;
+  font-size: 14px;
+  font-family: "Roboto Medium", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .ticker--brown {
+    background-color: #a94219; }
+  .ticker--green {
+    background-color: #00a453; }
+
+.reveal {
+  position: absolute;
+  margin-right: 15px;
+  padding: 65px 15px 25px;
+  transition: all .4s linear;
+  border-radius: .25rem;
+  text-align: center;
+  display: none; }
+  @media (min-width: 576px) and (max-width: 991px) {
+    .reveal {
+      padding-top: 40px; } }
+  .reveal > h5 {
+    font-size: 16px;
+    margin-bottom: 20px; }
+  .reveal > p {
+    font-size: 12px;
+    margin-bottom: 25px; }
+  .reveal__btn {
+    border-radius: 0;
+    color: #fff !important;
+    font-family: "Roboto Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-color: #50afc7 !important; }
+    .reveal__btn:hover {
+      background-color: #50afc7 !important;
+      border-color: #50afc7 !important; }
+
+.onHover {
+  cursor: pointer; }
+  @media (min-width: 576px) {
+    .onHover {
+      height: 380px; } }
+  .onHover:hover > .reveal {
+    top: 0;
+    bottom: 0;
+    background-color: #31333b;
+    color: #fff;
+    z-index: 2;
+    display: block; }
+
+footer {
+  color: #fff;
+  font-size: 13px; }
+
+.footer-menu li:not(last-child) {
+  margin-right: 20px !important; }
+
+.footer-menu a {
+  text-transform: uppercase;
+  color: #fff;
+  transition: color .2s linear;
+  font-size: 14px;
+  font-family: "Roboto Regular", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .footer-menu a:hover {
+    text-decoration: none;
+    color: #50afc7; }
+
+.btn--footer {
+  font-family: "Roboto Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border: 3px solid #50afc7;
+  border-radius: 0;
+  text-transform: uppercase;
+  color: #fff !important; }
+  .btn--footer:hover {
+    background-color: #50afc7;
+    border-color: #50afc7; }
+
+.site__title {
+  font-family: "Roboto Light", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.site__name {
+  font-family: "Gotham Black", "Helvetica Neue", Helvetica, Arial, sans-serif; }

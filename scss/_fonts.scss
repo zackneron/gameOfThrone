@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Gotham Black";
+    src: url("../fonts/gotham/Gotham-Black.oft");
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("../fonts/roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("../fonts/roboto/Roboto-Medium.ttf");
+}
+@font-face {
+    font-family: "Roboto Light";
+    src: url("../fonts/roboto/Roboto-Light.ttf");
+}
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("../fonts/roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "PT Serif";
+    src: url("../fonts/ptserif/PTF55F.ttf");
+}
+
+$font-default: "Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif;
+
+
+$gotham-black: "Gotham Black", $font-default;
+$pt-serif: "PT Serif", $font-default;
+
+$roboto-regular: "Roboto Regular", $font-default;
+$roboto-medium: "Roboto Medium", $font-default;
+$roboto-bold: "Roboto Bold", $font-default;
+$roboto-light: "Roboto Light", $font-default;
