@@ -43,3 +43,5 @@ gulp.task('watch', ['browserSync', 'imagemin' ,'sass'], function(){
 	gulp.watch('./img/**/*', ['imagemin']);
 	gulp.watch('index.html', browserSync.reload);
 });
+
+gulp.task('default', ['watch']);
