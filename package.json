@@ -1,0 +1,32 @@
+{
+  "name": "katshi-gameofthroneassessment",
+  "version": "1.0.0",
+  "description": "Game of Throne assessment",
+  "main": "gulpfile.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-changed": "^3.2.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zackneron/gameOfThrone.git"
+  },
+  "author": "Zack Katshi Mutombo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zackneron/gameOfThrone/issues"
+  },
+  "homepage": "https://github.com/zackneron/gameOfThrone#readme"
+}
