@@ -125,7 +125,7 @@ body {
   transition: all .4s linear;
   border-radius: .25rem;
   text-align: center;
-  display: none; }
+  opacity: 0; }
   @media (min-width: 576px) and (max-width: 991px) {
     .reveal {
       padding-top: 40px; } }
@@ -155,7 +155,7 @@ body {
     background-color: #31333b;
     color: #fff;
     z-index: 2;
-    display: block; }
+    opacity: 1; }
 
 footer {
   color: #fff;
