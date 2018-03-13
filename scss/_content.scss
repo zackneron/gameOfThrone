@@ -34,6 +34,8 @@
 
 .reveal{
 	position: absolute;
+	top:0;
+	bottom:0;
 	margin-right: 15px;
 	padding: 65px 15px 25px;
 	transition: all .4s linear;
@@ -76,8 +78,6 @@
 	}
 
 	&:hover > .reveal {
-		top: 0;
-		bottom: 0;
 		background-color: $dark-blue;
 		color: $white;
 		z-index: 2;

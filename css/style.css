@@ -120,6 +120,8 @@ body {
 
 .reveal {
   position: absolute;
+  top: 0;
+  bottom: 0;
   margin-right: 15px;
   padding: 65px 15px 25px;
   transition: all .4s linear;
@@ -150,8 +152,6 @@ body {
     .onHover {
       height: 380px; } }
   .onHover:hover > .reveal {
-    top: 0;
-    bottom: 0;
     background-color: #31333b;
     color: #fff;
     z-index: 2;
