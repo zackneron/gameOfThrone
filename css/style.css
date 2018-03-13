@@ -150,7 +150,8 @@ body {
   cursor: pointer; }
   @media (min-width: 576px) {
     .onHover {
-      height: 380px; } }
+      height: 380px;
+      margin-top: 10px; } }
   .onHover:hover > .reveal {
     background-color: #31333b;
     color: #fff;
