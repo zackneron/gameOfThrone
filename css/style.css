@@ -35,6 +35,11 @@ body {
   padding-right: 0;
   text-align: center; }
 
+.card-img--thumb {
+  max-width: 377px;
+  min-height: 177px;
+  height: 100%; }
+
 .flex {
   display: flex; }
   .flex-align-center {

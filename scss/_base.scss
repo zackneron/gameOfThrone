@@ -18,6 +18,12 @@ body {
 		padding-right: 0;
 		text-align: center;
 	}
+
+	&-img--thumb {
+		max-width: 377px;
+	    min-height: 177px;
+	    height: 100%;
+	}
 }
 
 .flex {

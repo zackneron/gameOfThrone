@@ -20,7 +20,7 @@ gulp.task('imagemin', function(){
 
 
 gulp.task('sass', function(){
-return gulp.src('./scss/style.scss')
+return gulp.src('./scss/**/*.scss')
 		.pipe(sass())
 		.pipe(autoprefixer())
 		.pipe(sourcemaps.write())
@@ -39,7 +39,7 @@ gulp.task('browserSync', function(){
 });
 
 gulp.task('watch', ['browserSync', 'imagemin' ,'sass'], function(){
-	gulp.watch('./scss/style.scss', ['sass']);
+	gulp.watch('./scss/**/*.scss', ['sass']);
 	gulp.watch('./img/**/*', ['imagemin']);
 	gulp.watch('index.html', browserSync.reload);
 });
